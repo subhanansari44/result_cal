@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        grade calculator
+    </h1>
+
+    <form id="form">
+            
+      <input type="number" placeholder="Total marks" id="t_marks"> <br>
+      <input type="number" placeholder="English" id="eng"> 
+      <input type="number" placeholder="urdu" id="urd"> <br>
+      <input type="number" placeholder="math" id="math">
+      <input type="number" placeholder="computer science" id="c_sci"> <br>
+
+      
+    </form>
+    <button onclick="calculate()"> Calculate</button>
+
+    <div class="result" id="m_result">
+         <table>
+            <tr>
+                <td>
+                    Total marks
+                </td>
+                <td id="T_mark">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    obtain marks
+                </td>
+                <td id="O_mark">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Percentage
+                </td>
+                <td id="percent">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Grade
+                </td>
+                <td id="grade">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Remarks
+                </td>
+                <td id="Remarks">
+                    
+                </td>
+            </tr>
+           
+         </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
